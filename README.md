@@ -30,12 +30,20 @@ reduce the data deminsions to 3 components as shown below. Using PCA transforms 
 ### Deliverable 3: Clustering Cryptocurrencies using K-Means
 
 - Finding the Best Value for k Using the Elbow Curve
+- 
+In the picture below you can clearly see that the "elbow" of the curve is at 4. We'll use that information and run K-means with k=4.
 
-Insert Picture
+<img width="347" alt="CryptoD3_1" src="https://user-images.githubusercontent.com/106631875/200991050-6542ceed-3ee7-4596-be31-411750b8e062.png">
 
-- Running K-Means with k=4
+- Running K-Means with k=4 provides the array with the following predictions below:
 
-Insert Picture
+<img width="293" alt="CryptoD3_2" src="https://user-images.githubusercontent.com/106631875/200991830-888f7ad7-7506-46dd-8714-692e1e2b0347.png">
+
+- We create a new DataFrame with the predicted clusters and cryptocurrency features, combine our DataFrames and add back in the CoinName column that was dropped above. 
+- Our results are shown below:
+
+<img width="462" alt="CryptoD3_3" src="https://user-images.githubusercontent.com/106631875/200992425-28e59a6b-8275-472d-87ab-ea9f1b76a92a.png">
+
 
 ### Deliverable 4: Visualizing Cryptocurrencies Results with a 3D Scatter with Clusters
 
