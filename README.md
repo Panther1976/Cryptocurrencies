@@ -30,7 +30,7 @@ reduce the data deminsions to 3 components as shown below. Using PCA transforms 
 ### Deliverable 3: Clustering Cryptocurrencies using K-Means
 
 - Finding the Best Value for k Using the Elbow Curve
-- 
+
 In the picture below you can clearly see that the "elbow" of the curve is at 4. We'll use that information and run K-means with k=4.
 
 <img width="347" alt="CryptoD3_1" src="https://user-images.githubusercontent.com/106631875/200991050-6542ceed-3ee7-4596-be31-411750b8e062.png">
@@ -47,8 +47,15 @@ In the picture below you can clearly see that the "elbow" of the curve is at 4. 
 
 ### Deliverable 4: Visualizing Cryptocurrencies Results with a 3D Scatter with Clusters
 
-Insert Picture 
+The picture below is a 3D-scatter plot with the PCA data and clusters.
 
+<img width="366" alt="CryptoD4_1" src="https://user-images.githubusercontent.com/106631875/200994477-a088811c-8902-4e6b-9cfc-b1a02b428d65.png">
 
+The picture below is a table of the tradable cryptocurrencies with column headers of CoinName, Algorithm, ProofType, TotalCoinSupply, TotalCoinsMined and Class.
 
-# Summary
+<img width="352" alt="CryptoD4_2" src="https://user-images.githubusercontent.com/106631875/200994522-f18d3abe-9c78-43e6-9f13-1c55dcebc13d.png">
+
+The picture below is the scatter plot using x as TotalCoinsMined and y as Total CoinSupply which gives us insight to the supply and demand and potential investment opportunity.
+
+<img width="358" alt="CryptoD4_4" src="https://user-images.githubusercontent.com/106631875/200994558-d167feed-9f92-40a1-8d9b-e40417ace756.png">
+
