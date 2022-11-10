@@ -2,6 +2,8 @@
 
 ## Overview: Clustering Crypto
 
+Our client wants to be able to offer a cryptocurrency portfolio to its investors. We are tasked to create a classification system so that cryptocurrencies can be grouped and classified for this portfolio. Will be using unsupeervised learning to create clusters that can be grouped and classified for this project.
+
 ### Deliverable 1: Preprocessing the Data for PCA
 
 <img width="338" alt="CryptoD1" src="https://user-images.githubusercontent.com/106631875/200981457-65fb7b1f-cb1d-4c01-8089-5a27ee3bb4fb.png">
