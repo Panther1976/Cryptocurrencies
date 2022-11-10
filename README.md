@@ -22,6 +22,11 @@ The picture above captures how the data was preprocessed prior to using pd.get_d
 
 ### Deliverable 2: Reducing Data Dimensions Using PCA
 
+In deliverable 2 we take the 532 rows and 98 columns that we were left with after preprocessing steps in Deliverable 1 and we use Principal Component Analysis (PCA) to 
+reduce the data deminsions to 3 components as shown below. Using PCA transforms our data into 532 rows and 3 columns.
+
+<img width="145" alt="CryptoD2" src="https://user-images.githubusercontent.com/106631875/200985155-3ff7ec39-f23b-4314-8f29-58498e65ffcb.png">
+
 ### Deliverable 3: Clustering Cryptocurrencies using K-Means
 
 - Finding the Best Value for k Using the Elbow Curve
